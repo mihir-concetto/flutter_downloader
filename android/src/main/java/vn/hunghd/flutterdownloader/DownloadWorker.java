@@ -570,7 +570,7 @@ public class DownloadWorker extends Worker implements MethodChannel.MethodCallHa
         try {
             ApplicationInfo applicationInfo = getApplicationContext().getPackageManager().getApplicationInfo(getApplicationContext().getPackageName(), PackageManager.GET_META_DATA);
             int appIconResId = applicationInfo.icon;
-            return applicationInfo.metaData.getInt("vn.hunghd.flutterdownloader.NOTIFICATION_ICON", appIconResId);
+            return applicationInfo.metaData.getInt("vn.hunghd.flutterdownloader.NOTIFICATION_ICON", R.drawable.ic_notification_start);
         } catch (PackageManager.NameNotFoundException e) {
             e.printStackTrace();
         }
