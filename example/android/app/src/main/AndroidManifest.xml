@@ -71,7 +71,7 @@
 
         <meta-data
             android:name="vn.hunghd.flutterdownloader.NOTIFICATION_ICON"
-            android:resource="@drawable/ic_stat_flutter" />
+            android:resource="@drawable/ic_notification_start" />
 
     </application>
 </manifest>
